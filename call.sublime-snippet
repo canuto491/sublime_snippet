@@ -1,0 +1,24 @@
+<snippet>
+	<content><![CDATA[
+public function __call(\$name, \$arguments){
+	\$no_method = true;
+
+	\$method_name = substr(\$name, 0, 3);
+	if (\$method_name == 'get') {
+		\$no_method = false;
+		\$real_name = substr(strtolower(\$name), 3);
+		return \$this->\$real_name;
+	}
+
+	if (\$no_method) {
+		throw new Exception("Metodo {\$name} nao encontrado");
+			
+	}
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>__call</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>__call function with getters [POO]</description>
+</snippet>

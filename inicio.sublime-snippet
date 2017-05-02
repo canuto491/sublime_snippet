@@ -1,0 +1,64 @@
+<snippet>
+	<content><![CDATA[
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+	<title itemprop="name">${1:}</title>
+	<meta name="description" content="Some description" itemprop="description"/>
+	<meta name="keywords" content="some, keywords" itemprop="keywords"/>
+	<!-- Mobile viewport -->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+  
+	<!-- link google fonts -->
+
+	<!-- link to stylesheet -->
+	<link rel="stylesheet" href="style.css">
+</head>
+
+
+<body class="page">
+
+	<!-- .header -->
+	<header class="page__header header" role="banner">
+		<h1>${1:}</h1>
+	</header>
+	<!-- .header -->
+
+	<!-- .mainmenu -->
+	<nav class="page__nav mainmenu" aria-label="Main navigation" role="menu">
+		<ul class="mainmenu__list" role="navigation">
+			(li.mainmenu__item[role="menuitem"]>a[href="#" class="mainmenu__link"]{Item})*${2:4}
+		</ul>
+	</nav>
+	<!-- .mainmenu -->
+
+	<!-- .main content -->
+	<main class="page__main main" role="main">
+		<section class="main__content">
+			<article role="article" class="article">
+				${3:Desarrollo}
+			</article>
+		</section>
+	</main>
+	<!-- .main -->
+
+
+	<!-- .footer -->
+	<footer class="page__footer footer" role="contentinfo">
+
+	</footer>
+	<!-- .footer -->
+
+	<!-- include plugins and others -->
+	<!-- <script src="link/to/script.js"></script> -->
+</body>
+</html>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>inicio</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>text.html</scope> -->
+</snippet>
