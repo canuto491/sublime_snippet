@@ -1,0 +1,16 @@
+{
+	"files":
+	{
+		"jquery": "http://code.jquery.com/jquery.min.js"
+	},
+	"packages":
+	{
+		"Bootstrap material design": "https://github.com/FezVrasta/bootstrap-material-design/archive/master.zip",
+		"Bootstrap-Theme 'Material Design' - @Canuto491": "https://github.com/canuto491/material/zipball/master",
+		"Bootstrap3": "https://github.com/twbs/bootstrap/releases/download/v3.3.7/bootstrap-3.3.7-dist.zip",
+		"fontAwesome": "http://fontawesome.io/assets/font-awesome-4.7.0.zip",
+		"html5_boilerplate": "https://github.com/h5bp/html5-boilerplate/zipball/master",
+		"singleton db": "https://github.com/canuto491/singleton_db/zipball/master",
+		"CodeIgniter": "https://github.com/bcit-ci/CodeIgniter/archive/3.1.4.zip"
+	}
+}
