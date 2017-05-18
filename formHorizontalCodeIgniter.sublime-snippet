@@ -1,0 +1,22 @@
+<snippet>
+	<content><![CDATA[
+<?php \$this->load->helper('form'); ?>
+<?php \$hidden = array('current_page' => base_url(uri_string()${1:, ...})); ?>
+<?php \$attributes = array('class' => '${2:form-horizontal}'); ?>
+<?php echo form_open(${3:base_url('${4:url_action}')}, \$attributes, \$hidden); ?>
+<?php echo form_fieldset('${5:Conteudo do legend}', array('id'	=> '${6:fieldsetContent}',
+'class' => 'form-group${7: row}')); ?>
+
+${8:<!--#Inputs, Labels and submit button Here-->}
+
+<?php echo form_submit('submit', 'submit',  array("class" => "btn btn-primary"));?>
+<?php echo form_submit('reset', 'cancelar', array("class" => "btn btn-primary"));?>
+<?php echo form_fieldset_close(); ?>
+<?php echo form_close(); ?>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>formHorizontalCodeIgniter</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.php,text.html,text.php</scope>
+	<description>CanutiCI- Form Horizontal</description>
+</snippet>
