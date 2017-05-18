@@ -1,0 +1,33 @@
+<snippet>
+	<content><![CDATA[
+<div class="form-group">
+	<?php 
+	\$data = array(
+		'class' => 'col-lg-2 control-label',
+		);
+
+	echo form_label("${2:Description}","${3:for...}",\$data);
+	?>
+	<div class="col-lg-10">
+	<?php 
+	\$data = array(
+		'type'  => '${4:text | email | date |url}',
+		'name'  => '${5:id/name}',
+		'id'    => '${5:id/name}',
+		${6:'value' => 'valor(opcional)',}
+		'placeholder' => '${7:Placeholder}',
+		'class' => 'form-control',
+		${8:'required' => 'require'}
+		);
+	echo form_input(\$data);
+	?>
+	
+	</div>
+</div>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>inputCodeIgniter</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.php,text.html,text.php</scope>
+	<description>CanutiCI- Input Form</description>
+</snippet>
