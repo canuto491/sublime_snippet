@@ -1,0 +1,9 @@
+<snippet>
+    <content><![CDATA[strip_tags($SELECTION)]]></content>
+    <!-- Optional: Tab trigger to activate the snippet -->
+    <tabTrigger>strip_tags</tabTrigger>
+    <!-- Optional: Scope the tab trigger will be active in -->
+    <scope>source.php, text.php</scope>
+    <!-- Optional: Description to show in the menu -->
+    <description>_PJ strip_tags [@Canuto491]</description>
+</snippet>

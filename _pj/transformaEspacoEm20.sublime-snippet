@@ -1,0 +1,9 @@
+<snippet>
+    <content><![CDATA[str_replace(" ","%20",$SELECTION)]]></content>
+    <!-- Optional: Tab trigger to activate the snippet -->
+    <tabTrigger>transformaEspacoEm%20%</tabTrigger>
+    <!-- Optional: Scope the tab trigger will be active in -->
+    <scope>source.php, text.php</scope>
+    <!-- Optional: Description to show in the menu -->
+    <description>_PJ str_replace " " -» "%20" [@Canuto491]</description>
+</snippet>

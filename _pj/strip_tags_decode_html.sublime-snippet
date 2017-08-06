@@ -1,0 +1,9 @@
+<snippet>
+    <content><![CDATA[strip_tags(html_entity_decode($SELECTION), ENT_QUOTES, "UTF-8"))]]></content>
+    <!-- Optional: Tab trigger to activate the snippet -->
+    <tabTrigger>limpa as tags e formata em UTF8</tabTrigger>
+    <!-- Optional: Scope the tab trigger will be active in -->
+    <scope>source.php, text.php</scope>
+    <!-- Optional: Description to show in the menu -->
+    <description>_PJ strip-tags and decode HTML [@Canuto491]</description>
+</snippet>
